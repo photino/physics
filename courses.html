@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html id="courses" lang="zh-cn"> 
+
+<head>
+<meta charset="utf-8"/>
+<title>物理 :: 课程设计</title>
+<meta name="keywords" content=" "/>
+<meta name="description" content=" "/>
+<link rel="stylesheet" media="all" href="css/normalize.css"/>
+<link rel="stylesheet" media="all" href="css/default.css"/>
+<script src="js/jquery.js"></script>
+<script src="js/jdom.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('article section[id]').not('#first_year').addClass('hidden');
+    $(this).on('click', 'article h3 a', function() {
+      id = $(this).attr('href');
+      $('article section[id]').addClass('hidden');
+      $(id).removeClass('hidden');
+    });
+  });
+</script>
+</head>
+
+<body>
+
+<header><!-- Load "index.html #index_header" --></header>
+<nav><!-- Load "index.html #index_nav" --></nav>
+
+<article>
+<section>
+<ul>
+  <li>课程编号：第一个数字表示年级，中间的字母表示课程类型，第二个数字表示序号</li>
+  <li>等级分类：A — 入门，B — 中级，C — 高级</li>
+  <li>推荐指数：5分为最高，1分为最低</li>
+</ul>
+<h3><a href="#first_year">大一</a> >> <a href="#second_year">大二</a> >> 
+  <a href="#third_year">大三</a> >> <a href="#forth_year">大四</a>
+</h3>
+</section>
+
+<section id="first_year">  
+<h4>(M) 数学</h4>
+<ul>
+  <li>(1M1) 微积分 — [Coursera &bull; UPenn] Calculus: Single Variable 
+    <span>学分：3，等级分类：A，推荐指数：4</span>
+  </li> 
+  <li>(1M2) 线性代数 — [Coursera &bull; Brown] 
+    Coding the Matrix: Linear Algebra through Computer Science Applications 
+    <span>学分：2，等级分类：B，推荐指数：5</span>
+  </li>
+</ul> 
+ 
+<h4>(P) 物理</h4>
+<ul>
+  <li>(1P1) 经典力学 — [edX &bull; MIT] Classical Mechanics 
+    <span>学分：4，等级分类：B，推荐指数：5</span>
+  </li> 
+  <li>(1P2) 电磁学 — [edX &bull; MIT] Electricity and Magnetism 
+    <span>学分：4，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>  
+  
+<h4>(C) 计算机</h4>
+<ul>
+  <li>(1C1) 计算机基础 — [edX &bull; Harvard] Introduction to Computer Science 
+    <span>学分：4，等级分类：B，推荐指数：4</span>
+  </li>
+  <li>(1C2) 程序设计 — [edX &bull; MIT] Introduction to Computer Science and Programming
+    <span>学分：4，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>  
+
+<h4>(O) 选修课</h4>
+<ul>
+  <li>(1O1) 公正 — [edX &bull; Harvard] Justice
+    <span>学分：2，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>    
+</section>
+
+<section id="second_year">  
+<h4>(M) 数学</h4>
+<ul>
+  <li>(2M1) 概率论 — [edX &bull; Berkeley] Introduction to Statistics: Probability
+    <span>学分：1，等级分类：B，推荐指数：3</span>
+  </li> 
+</ul> 
+ 
+<h4>(P) 物理</h4>
+<ul>
+  <li>(2P1) 牛顿力学 — [edX] Mechanics ReViewMITx 
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li> 
+  <li>(2P2) 电磁学 — [edX] Electricity and Magnetism 
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>  
+  
+<h4>(C) 计算机</h4>
+<ul>
+  <li>(2C1) 计算机基础 — [edX] CS50x: Introduction to Computer Science 
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li>
+  <li>(2C2) 程序设计 — [edX] Introduction to Computer Science and Programming
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>  
+
+<h4>(O) 选修课</h4>
+<ul>
+  <li>(2O1) 人文课程 — [edX] Justice
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>    
+</section>
+
+<section id="third_year">  
+<h4>(M) 数学</h4>
+<ul>
+  <li>(3M1) 概率论 — [edX] Introduction to Statistics: Probability
+    <span>学分：1，等级分类：B，推荐指数：3</span>
+  </li> 
+</ul> 
+ 
+<h4>(P) 物理</h4>
+<ul>
+  <li>(3P1) 牛顿力学 — [edX] 8.MReV: Mechanics ReViewMITx 
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li> 
+  <li>(3P2) 电磁学 — [edX] 8.02x Electricity and Magnetism 
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>  
+  
+<h4>(C) 计算机</h4>
+<ul>
+  <li>(3C1) 计算机基础 — [edX &bull; Berkeley] Quantum Mechanics and Quantum Computation 
+    <span>学分：3，等级分类：C，推荐指数：4</span>
+  </li>
+</ul>  
+
+<h4>(O) 选修课</h4>
+<ul>
+  <li>(3O1) 人文课程 — [edX] ER22x Justice
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>    
+</section>
+
+<section id="forth_year">  
+<h4>(M) 数学</h4>
+<ul>
+  <li>(4M1) 微积分 — [Coursera] Calculus: Single Variable 
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li> 
+  <li>(4M2) 线性代数 — [Coursera] Coding the Matrix: Linear Algebra through Computer Science Applications 
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li>
+</ul> 
+ 
+<h4>(P) 物理</h4>
+<ul>
+  <li>(4P1) 牛顿力学 — [edX] 8.MReV: Mechanics ReViewMITx 
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li> 
+  <li>(4P2) 电磁学 — [edX] 8.02x Electricity and Magnetism 
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>  
+  
+<h4>(O) 选修课</h4>
+<ul>
+  <li>(4O1) 人文课程 — [edX] ER22x Justice
+    <span>学分：，等级分类：B，推荐指数：5</span>
+  </li>
+</ul>    
+</section>
+
+</article>
+
+<footer><!-- Load "index.html #index_footer" --></footer>
+
+</body>
+</html>

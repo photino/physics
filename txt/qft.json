@@ -1,0 +1,68 @@
+
+{ "author": "Zan Pan",
+  "items": [{
+    "date": "2013-06-11", 
+    "key": "QFT_field_dimension",     
+    "question": "在2维时空中, 标量场<math><mi>&phi;</mi></math>与旋量场<math><mi>&psi;</mi></math>的耦合项<math><mrow><mover><mi>&psi;</mi><mo>&oline;</mo></mover><mi>&psi;</mi><mi>&phi;</mi></mrow></math>的量纲为", 
+    "choices": ["<math><mrow><mn>1</mn></mrow></math>",
+      "<math><mrow><mn>2</mn></mrow></math>", 
+      "<math><mrow><mn>3</mn></mrow></math>",
+      "<math><mrow><mn>4</mn></mrow></math>",
+      "<math><mrow><mn>6</mn></mrow></math>"],
+    "answer": "A" 
+  }, {
+    "date": "2013-06-11", 
+    "key": "QED_2photon",     
+    "question": "QED中双光子散射的最低阶Feynman图有几个？", 
+    "choices": ["<math><mrow><mn>1</mn></mrow></math>", 
+      "<math><mrow><mn>2</mn></mrow></math>", 
+      "<math><mrow><mn>3</mn></mrow></math>", 
+      "<math><mrow><mn>4</mn></mrow></math>", 
+      "<math><mrow><mn>6</mn></mrow></math>"],
+    "answer": "E" 
+  }, {
+    "date": "2013-06-12", 
+    "key": "QCD_2ghost_gluon",     
+    "question": "QCD中鬼场-反鬼场-单胶子顶点图的表观发散度为", 
+    "choices": ["<math><mrow><mi>&minus;</mi><mn>2</mn></mrow></math>", 
+      "<math><mrow><mi>&minus;</mi><mn>1</mn></mrow></math>", 
+      "<math><mrow><mn>0</mn></mrow></math>", 
+      "<math><mrow><mn>1</mn></mrow></math>",
+      "<math><mrow><mn>2</mn></mrow></math>"],
+    "answer": "D" 
+  }, {
+    "date": "2013-06-13", 
+    "key": "QCD_color_factor",     
+    "question": "设<math><mrow><mi>SU</mi><mo>(</mo><mn>3</mn><mo>)</mo></mrow></math>群基本表示的生成元为<math><mrow><msup><mi>t</mi><mi>a</mi></msup></mrow></math>, 则<math><mrow><mi>tr</mi><mo>&ApplyFunction;</mo><mo>(</mo><msup><mi>t</mi><mi>a</mi></msup><msup><mi>t</mi><mi>b</mi></msup><msup><mi>t</mi><mi>a</mi></msup><msup><mi>t</mi><mi>b</mi></msup><mo>)</mo><mo>=</mo></mrow></math>", 
+    "choices": ["<math><mrow><mi>&minus;</mi><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>", 
+      "<math><mrow><mi>&minus;</mi><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>", 
+      "<math><mrow><mn>0</mn></mrow></math>", 
+      "<math><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>", 
+      "<math><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>"],
+    "answer": "A" 
+  }, {
+    "date": "2013-06-14", 
+    "key": "RG_SSB",     
+    "question": "下面关于自发对称破缺的说法不正确的是", 
+    "newline": "true",
+    "choices": ["发生自发对称破缺就意味着粒子不再按不可约表示的多重态来分类。",
+      "离散对称性也可能会发生自发破缺，但是不能产生无质量的粒子。", 
+      "自发对称破缺可以产生无质量的玻色子，也可以产生无质量的费米子。", 
+      "自发对称破缺产生的无质量粒子的数目一定等于破缺的生成元的数目。", 
+      "对于二维体系的一个连续对称性，不可能存在破缺该对称性的二阶相变。"],
+    "answer": "D" 
+  }, {
+    "date": "2013-06-15", 
+    "key": "QFT_Dirac_matrices",     
+    "question": "下面关于手征表象下Dirac矩阵的运算不正确的是", 
+    "newline": "true",
+    "choices": ["<math><mrow><msup><mi>&gamma;</mi><mi>&mu;</mi></msup><msub><mi>&gamma;</mi><mi>&mu;</mi></msub><mo>=</mo><mn>4</mn></mrow></math>",
+      "<math><mrow><msup><mi>&gamma;</mi><mn>0</mn></msup><msup><mi>&gamma;</mi><mi>&mu;</mi></msup><msup><mi>&gamma;</mi><mn>0</mn></msup><mo>=</mo><msub><mi>&gamma;</mi><mi>&mu;</mi></msub></mrow></math>", 
+      "<math><mrow><msup><mi>&gamma;</mi><mn>2</mn></msup><msup><mi>&gamma;</mi><mi>&mu;</mi></msup><msup><mi>&gamma;</mi><mn>2</mn></msup><mo>=</mo><mi>&minus;</mi><msub><mi>&gamma;</mi><mi>&mu;</mi></msub></msup></mrow></math>", 
+      "<math><mrow><msup><mi>&gamma;</mi><mn>5</mn></msup><msup><mi>&gamma;</mi><mi>&mu;</mi></msup><msup><mi>&gamma;</mi><mn>5</mn></msup><mo>=</mo><mi>&minus;</mi><msup><mi>&gamma;</mi><mi>&mu;</mi></msup></msup></mrow></math>",
+      "<math><mrow><msup><mi>&gamma;</mi><mi>&mu;</mi></msup><msup><mi>&gamma;</mi><mi>&nu;</mi></msup><msub><mi>&gamma;</mi><mi>&mu;</mi></msub><mo>=</mo><mi>&minus;</mi><mn>2</mn><msup><mi>&gamma;</mi><mi>&nu;</mi></msup></mrow></math>"],
+    "answer": "C" 
+  }]
+}
+
+
